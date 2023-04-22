@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     
+}
+
+div{
+   margin-top: 5rem;
+   width: 350px;
+    height: 300px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    align-content: center;
+    padding: 0.5rem;
+}
+
+div h1{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+
+div p{
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    text-transform: capitalize;
+   
+}
+
+
+.btn{
+    align-self: flex-start;
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    background:#718093;
+    
+}
+
+
+.bi-brightness-high-fill{
+    color: orange;
+}
+
+.bi-moon-fill{
+    color: black;
+}
